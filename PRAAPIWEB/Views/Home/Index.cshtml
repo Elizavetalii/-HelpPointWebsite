@@ -1,0 +1,20 @@
+﻿@model List<PRAAPIWEB.Models.Aboutprojectsection>
+
+<h1>О проекте</h1>
+
+@if (Model == null || !Model.Any())
+{
+    <p>Информация пока отсутствует.</p>
+}
+else
+{
+    foreach (var item in Model)
+    {
+        <section>
+            <h2>@item.Section</h2>
+            <p>@item.Content</p>
+        </section>
+    }
+}
+
+<p>Получено секций: @ViewBag.SectionsCount</p>
