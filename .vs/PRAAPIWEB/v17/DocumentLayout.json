@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Liza\\Desktop\\PRAAPIWEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\services\\apiuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:services\\apiuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\praapiweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:praapiweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|d:\\liza\\desktop\\praapiweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3046932-BD6A-5B82-AD57-0EF876CE563B}|PRAAPIWEB.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T19:18:29.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T22:03:43.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:52:05.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-23T18:52:08.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiUserService.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Services\\ApiUserService.cs",
+              "RelativeDocumentMoniker": "Services\\ApiUserService.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Services\\ApiUserService.cs",
+              "RelativeToolTip": "Services\\ApiUserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:11:15.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:13:59.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutProjectSectionService.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "RelativeDocumentMoniker": "Services\\AboutProjectSectionService.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "RelativeToolTip": "Services\\AboutProjectSectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:51:16.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AboutProjectController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AboutProjectController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "RelativeToolTip": "Controllers\\AboutProjectController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:50:58.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T21:32:35.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T21:58:18.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T21:43:30.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PRAAPIWEB.csproj",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PRAAPIWEB\\PRAAPIWEB.csproj",
+              "RelativeDocumentMoniker": "PRAAPIWEB.csproj",
+              "ToolTip": "d:\\Liza\\Desktop\\PRAAPIWEB\\PRAAPIWEB.csproj",
+              "RelativeToolTip": "PRAAPIWEB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-25T21:50:18.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T19:17:38.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T19:18:18.434Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

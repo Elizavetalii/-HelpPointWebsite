@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PRAAPIWEB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PRAAPIWEB.styles.css" asp-append-version="true" />
+</head>
+
+<script>
+    $(document).ready(function () {
+        $('#loginForm').submit(function (e) {
+            e.preventDefault();
+            $.post('/Account/Login', $(this).serialize())
+                .done(function () {
+                    location.reload();
+                })
+                .fail(function (xhr) {
+                    $('#authMessage')
+                        .removeClass('d-none alert-success')
+                        .addClass('alert alert-danger')
+                        .text('Ошибка входа: ' + (xhr.responseText || 'Проверьте email и пароль.'));
+                });
+        });
+
+        $('#registerForm').submit(function (e) {
+            e.preventDefault();
+            $.post('/Account/Register', $(this).serialize())
+                .done(function () {
+                    $('#authMessage')
+                        .removeClass('d-none alert-danger')
+                        .addClass('alert alert-success')
+                        .text('Регистрация прошла успешно. Теперь вы можете войти.');
+                })
+                .fail(function (xhr) {
+                    $('#authMessage')
+                        .removeClass('d-none alert-success')
+                        .addClass('alert alert-danger')
+                        .text('Ошибка регистрации: ' + (xhr.responseText || 'Проверьте данные.'));
+                });
+        });
+    });
+</script>
+
+</script>
+
+<body>
+    <header class="bg-white border-bottom shadow-sm mb-3">
+        <header style="background-color: #f3f3f7; border-bottom: 1px solid #ddd;">
+            <div class="container d-flex justify-content-between align-items-center py-2">
+                <!-- Логотип и название -->
+                <a class="d-flex align-items-center text-decoration-none text-dark" asp-controller="AboutProject" asp-action="Index">
+                    <img src="https://github.com/Elizavetalii/-HelpPointWebsite/blob/main/log.png?raw=true"
+                         alt="Пункт помощи" style="height: 32px; margin-right: 8px;" />
+                    <span class="fw-bold" style="font-size: 16px;">Пункт помощи</span>
+                </a>
+
+                <!-- Навигация -->
+                <nav class="d-flex align-items-center flex-wrap" style="gap: 18px; font-size: 14px; color: #000;">
+                    <a class="text-decoration-none" asp-controller="Home" asp-action="Index" style="color: #000;">Главная</a>
+                    <a class="text-decoration-none" asp-controller="Language" asp-action="Index" style="color: #000;">Изучение языка</a>
+                    <a class="text-decoration-none" asp-controller="LegalAid" asp-action="Index" style="color: #000;">Юридическая помощь</a>
+                    <a class="text-decoration-none" asp-controller="Jobs" asp-action="Index" style="color: #000;">Работа</a>
+                    <a class="text-decoration-none" asp-controller="Support" asp-action="Index" style="color: #000;">Поддержка и общение</a>
+                    <a class="text-decoration-none" asp-controller="Health" asp-action="Index" style="color: #000;">Медицина</a>
+                    <a class="text-decoration-none" asp-controller="Housing" asp-action="Index" style="color: #000;">Жильё</a>
+                    <a class="text-decoration-none" asp-controller="SocialAid" asp-action="Index" style="color: #000;">Соц.поддержка</a>
+                    <a class="text-decoration-none" asp-controller="Map" asp-action="Index" style="color: #000;">Карта помощи</a>
+
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <a asp-controller="Account" asp-action="Logout">Выйти</a>
+                    }
+                    else
+                    {
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#authModal">Вход / Регистрация</a>
+                    }
+
+                    <!-- Модальное окно -->
+                    <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content shadow">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="authModalLabel">Вход / Регистрация</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Сообщения об ошибках -->
+                                    <div id="authMessage" class="alert d-none" role="alert"></div>
+
+                                    <!-- Форма входа -->
+                                    <form id="loginForm">
+                                        <div class="mb-3">
+                                            <input type="email" name="email" class="form-control" placeholder="Email" required />
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="password" name="password" class="form-control" placeholder="Пароль" required />
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100">Войти</button>
+                                    </form>
+
+                                    <hr />
+
+                                    <!-- Форма регистрации -->
+                                    <form id="registerForm">
+                                        <div class="mb-2">
+                                            <input type="text" name="name" class="form-control" placeholder="Имя" required />
+                                        </div>
+                                        <div class="mb-2">
+                                            <input type="email" name="email" class="form-control" placeholder="Email" required />
+                                        </div>
+                                        <div class="mb-2">
+                                            <input type="password" name="password" class="form-control" placeholder="Пароль" required />
+                                        </div>
+                                        <button type="submit" class="btn btn-secondary w-100">Зарегистрироваться</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </nav>
+            </div>
+        </header>
+
+
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+        <footer class="footer text-muted bg-white text-center text-dark py-4 border-top" style="background-color: #ffffff;">
+            <div class="container">
+                <h6 class="fw-bold">Пункт помощи</h6>
+                <p class="mb-2 fw-semibold">Подписаться на рассылку новостей</p>
+                <form class="d-flex justify-content-center align-items-center gap-2 flex-wrap" style="max-width: 500px; margin: 0 auto;">
+                    <div class="input-group" style="max-width: 300px;">
+                        <span class="input-group-text bg-white border-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.217l-8 4.8-8-4.8V4z" />
+                                <path d="M0 5.383l7.555 4.533a.5.5 0 0 0 .89 0L16 5.383V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.383z" />
+                            </svg>
+                        </span>
+                        <input type="email" class="form-control border-secondary" placeholder="Введите ваш email" />
+                    </div>
+                    <button class="btn btn-primary">Подписаться</button>
+                </form>
+
+                <p class="text-muted small mt-4 mb-0">&copy; 2025 Пункт помощи.</p>
+            </div>
+        </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
