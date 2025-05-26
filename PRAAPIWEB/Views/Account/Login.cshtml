@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Вход";
+}
+
+<h2>Вход</h2>
+
+<div id="authMessage" class="alert d-none" role="alert"></div>
+
+<form id="loginForm" method="post" asp-controller="Account" asp-action="Login">
+    <div class="mb-3">
+        <input type="email" name="Email" class="form-control" placeholder="Email" required />
+    </div>
+    <div class="mb-3">
+        <input type="password" name="Password" class="form-control" placeholder="Пароль" required />
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Войти</button>
+</form>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('#loginForm').submit(function (e) {
+                e.preventDefault();
+                $.post($(this).attr('action'), $(this).serialize())
+                    .done(function () {
+                        window.location.href = '/'; // Перенаправить на главную или профиль
+                    })
+                    .fail(function (xhr) {
+                        $('#authMessage')
+                            .removeClass('d-none alert-success')
+                            .addClass('alert alert-danger')
+                            .text('Ошибка входа: ' + (xhr.responseText || 'Проверьте email и пароль.'));
+                    });
+            });
+        });
+    </script>
+}

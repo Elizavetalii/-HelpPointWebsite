@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,38 +9,70 @@
     <link rel="stylesheet" href="~/PRAAPIWEB.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PRAAPIWEB</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header class="bg-white border-bottom shadow-sm mb-3" style="background-color: #f3f3f7; border-bottom: 1px solid #ddd;">
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <!-- Логотип и название -->
+            <a class="d-flex align-items-center text-decoration-none text-dark" asp-controller="AboutProject" asp-action="Index">
+                <img src="https://github.com/Elizavetalii/-HelpPointWebsite/blob/main/log.png?raw=true"
+                     alt="Пункт помощи" style="height: 32px; margin-right: 8px;" />
+                <span class="fw-bold" style="font-size: 16px;">Пункт помощи</span>
+            </a>
+
+            <!-- Навигация -->
+            <nav class="d-flex align-items-center flex-wrap" style="gap: 18px; font-size: 14px; color: #000;">
+                <a class="text-decoration-none" asp-controller="Home" asp-action="Index" style="color: #000;">Главная</a>
+                <a class="text-decoration-none" asp-controller="Language" asp-action="Index" style="color: #000;">Изучение языка</a>
+                <a class="text-decoration-none" asp-controller="LegalAid" asp-action="Index" style="color: #000;">Юридическая помощь</a>
+                <a class="text-decoration-none" asp-controller="Jobs" asp-action="Index" style="color: #000;">Работа</a>
+                <a class="text-decoration-none" asp-controller="Support" asp-action="Index" style="color: #000;">Поддержка и общение</a>
+                <a class="text-decoration-none" asp-controller="Health" asp-action="Index" style="color: #000;">Медицина</a>
+                <a class="text-decoration-none" asp-controller="Housing" asp-action="Index" style="color: #000;">Жильё</a>
+                <a class="text-decoration-none" asp-controller="SocialAid" asp-action="Index" style="color: #000;">Соц.поддержка</a>
+                <a class="text-decoration-none" asp-controller="Map" asp-action="Index" style="color: #000;">Карта помощи</a>
+
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <a class="text-decoration-none" asp-controller="Account" asp-action="Logout" style="color: #000;">Выйти</a>
+                }
+                else
+                {
+                    <a class="text-decoration-none" asp-controller="Account" asp-action="Login" style="color: #000;">Вход</a>
+                    <a class="text-decoration-none" asp-controller="Account" asp-action="Register" style="color: #000;">Регистрация</a>
+                }
+            </nav>
+        </div>
     </header>
+
+    <!-- Основной контент -->
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- Футер -->
+    <footer class="footer text-muted bg-white text-center text-dark py-4 border-top">
         <div class="container">
-            &copy; 2025 - PRAAPIWEB - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <h6 class="fw-bold">Пункт помощи</h6>
+            <p class="mb-2 fw-semibold">Подписаться на рассылку новостей</p>
+            <form class="d-flex justify-content-center align-items-center gap-2 flex-wrap" style="max-width: 500px; margin: 0 auto;">
+                <div class="input-group" style="max-width: 300px;">
+                    <span class="input-group-text bg-white border-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.217l-8 4.8-8-4.8V4z" />
+                            <path d="M0 5.383l7.555 4.533a.5.5 0 0 0 .89 0L16 5.383V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.383z" />
+                        </svg>
+                    </span>
+                    <input type="email" class="form-control border-secondary" placeholder="Введите ваш email" />
+                </div>
+                <button class="btn btn-primary">Подписаться</button>
+            </form>
+            <p class="text-muted small mt-4 mb-0">&copy; 2025 Пункт помощи.</p>
         </div>
     </footer>
+
+    <!-- Скрипты -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

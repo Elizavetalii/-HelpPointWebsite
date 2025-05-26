@@ -1,18 +1,33 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using PRAAPIWEB.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Читаем базовый URL из настроек
 var apiBaseUrl = builder.Configuration.GetValue<string>("ApiSettings:BaseUrl");
+var baseUri = apiBaseUrl.EndsWith("/") ? apiBaseUrl : apiBaseUrl + "/";
 
-// Регистрируем HttpClient для AboutProjectSectionService
-builder.Services.AddHttpClient<AboutProjectSectionService>(client =>
+// Регистрация HttpClient для AuthService
+builder.Services.AddHttpClient<AuthService>(client =>
 {
-    var baseUri = apiBaseUrl.EndsWith("/") ? apiBaseUrl : apiBaseUrl + "/";
     client.BaseAddress = new Uri(baseUri);
 });
 
-// Регистрируем MVC
+// Регистрация HttpClient для AboutProjectSectionService
+builder.Services.AddHttpClient<AboutProjectSectionService>(client =>
+{
+    client.BaseAddress = new Uri(baseUri);
+});
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/account/login";
+        options.LogoutPath = "/account/logout";
+        options.AccessDeniedPath = "/account/accessdenied";
+    });
+
+builder.Services.AddAuthorization();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -28,6 +43,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

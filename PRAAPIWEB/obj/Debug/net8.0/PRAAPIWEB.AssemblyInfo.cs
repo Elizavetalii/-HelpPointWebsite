@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRAAPIWEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+453c20549ea5e18eba451981c4220d315b24ddc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRAAPIWEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRAAPIWEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
