@@ -1,189 +1,253 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\",
+  "WorkspaceRootPath": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\support\\forum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\support\\forum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\housingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\housingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\socialaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\socialaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\map\\helpmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\map\\helpmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\socialaid\\socialsupport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\socialaid\\socialsupport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\housing\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\housing\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\health\\medical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\health\\medical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\jobs\\jobsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\jobs\\jobsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\legalaid\\legalhelp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\legalaid\\legalhelp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\services\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\language\\language.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\language\\language.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\legalaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\legalaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\aboutprojectsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\services\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\aboutprojectsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\aboutprojectsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\socialhelparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\socialhelparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\socialhelparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\testimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\testimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\testimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\workarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\workarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\workarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\usertestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\usertestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\usertestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\migrationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\migrationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\migrationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\medicalclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\medicalclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\medicalclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\medicalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\medicalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\medicalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\legalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\legalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\legalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\languagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\languagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\languagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\jobvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\jobvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\jobvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\housingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\housingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\housingarticletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\housingarticletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingarticletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\housingarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\housingarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\forumreply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\forumreply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\forumreply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\alepi\\source\\repos\\praapiweb\\praapiweb\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|c:\\users\\glebo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\apipraweb\\praapiweb\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -194,140 +258,262 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1546,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Forum.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAJcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:17:07.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAiwPEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-27T11:30:04.48Z"
+              "Title": "HousingController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\HousingController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\HousingController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\HousingController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\HousingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:24:23.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T20:28:21.068Z"
+              "Title": "MapController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\MapController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\MapController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\MapController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\MapController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:22:34.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "SocialAidController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:22:00.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\HealthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:21:11.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SupportController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\SupportController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\SupportController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\SupportController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\SupportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:20:47.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\JobsController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\JobsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:19:53.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HelpMap.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:19:10.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SocialSupport.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:18:48.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Accommodation.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:18:03.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Medical.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:17:43.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JobSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:16:44.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LegalHelp.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:16:19.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T20:28:21.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PRAAPIWEB\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-20T22:57:25.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-27T13:34:23.582Z"
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T10:58:13.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "bootstrap-utilities.rtl.css",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-27T13:33:43.146Z"
+              "DocumentIndex": 16,
+              "Title": "Language.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:12:31.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "bootstrap-utilities.min.css.map",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC2RQEA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-27T13:33:40.181Z"
+              "DocumentIndex": 17,
+              "Title": "LegalAidController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:12:08.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:11:25.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "bootstrap-utilities.css.map",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
               "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
               "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA5UAIA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -335,11 +521,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 27,
               "Title": "bootstrap-utilities.css",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "ViewState": "AQIAACcAAAAAAAAAAAAIwE4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -347,11 +533,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\appsettings.json",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\appsettings.json",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\appsettings.json",
+              "RelativeToolTip": "PRAAPIWEB\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T23:07:31.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwGEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:18:25.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T19:19:20.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "bootstrap-utilities.min.css.map",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC2RQEA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T13:33:40.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "bootstrap-utilities.rtl.css",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T13:33:43.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T13:34:23.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAiwPEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T11:30:04.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "additional-methods.js",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "ViewState": "AQIAAP8AAAAAAAAAAAAAAP8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -359,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 29,
               "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\wwwroot\\js\\site.js",
               "RelativeToolTip": "PRAAPIWEB\\wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -371,23 +644,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "PRAAPIWEB\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwGEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:18:25.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
               "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\LoginResponse.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\LoginResponse.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\LoginResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -395,11 +656,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Services\\AuthService.cs",
               "RelativeToolTip": "PRAAPIWEB\\Services\\AuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +668,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 31,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\UserDto.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\UserDto.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\UserDto.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -419,23 +680,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\appsettings.json",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\appsettings.json",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\appsettings.json",
-              "RelativeToolTip": "PRAAPIWEB\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T23:07:31.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\User.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\User.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,11 +692,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\RegisterRequest.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\RegisterRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -455,11 +704,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "AboutProjectController.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\AboutProjectController.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
               "RelativeToolTip": "PRAAPIWEB\\Controllers\\AboutProjectController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -467,11 +716,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "AboutProjectSectionService.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
               "RelativeToolTip": "PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -479,11 +728,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 37,
               "Title": "AuthHeaderHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
               "RelativeToolTip": "PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -491,23 +740,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T10:58:13.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Program.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Program.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Program.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Program.cs",
               "RelativeToolTip": "PRAAPIWEB\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -515,11 +752,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "PRAAPIWEB\\Views\\Account\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -527,23 +764,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "PRAAPIWEB\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T19:19:20.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "Aboutprojectsection.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Aboutprojectsection.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Aboutprojectsection.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Aboutprojectsection.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Aboutprojectsection.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Aboutprojectsection.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Aboutprojectsection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,11 +776,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PRAAPIWEB\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -563,11 +788,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PRAAPIWEB\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\appsettings.Development.json",
               "RelativeToolTip": "PRAAPIWEB\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -575,11 +800,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\LoginModel.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -587,11 +812,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Socialhelparticle.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Socialhelparticle.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Socialhelparticle.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Socialhelparticle.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Socialhelparticle.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Socialhelparticle.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Socialhelparticle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -599,11 +824,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 45,
               "Title": "Userquestion.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Userquestion.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Userquestion.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Userquestion.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Userquestion.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Userquestion.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Userquestion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -611,11 +836,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "Testimage.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Testimage.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Testimage.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Testimage.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Testimage.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Testimage.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Testimage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -623,11 +848,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "PRAAPIWEB\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -635,11 +860,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -647,11 +872,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 50,
               "Title": "Usertestresult.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Usertestresult.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Usertestresult.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Usertestresult.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Usertestresult.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Usertestresult.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Usertestresult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -659,11 +884,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "Workarticle.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Workarticle.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Workarticle.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Workarticle.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Workarticle.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Workarticle.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Workarticle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -671,11 +896,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 51,
               "Title": "Migrationcenter.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Migrationcenter.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Migrationcenter.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Migrationcenter.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Migrationcenter.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Migrationcenter.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Migrationcenter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -683,11 +908,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 52,
               "Title": "Medicalclinic.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Medicalclinic.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Medicalclinic.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Medicalclinic.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Medicalclinic.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Medicalclinic.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Medicalclinic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -695,11 +920,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "Medicalarticle.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Medicalarticle.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Medicalarticle.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Medicalarticle.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Medicalarticle.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Medicalarticle.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Medicalarticle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -707,11 +932,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 54,
               "Title": "Legalarticle.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Legalarticle.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Legalarticle.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Legalarticle.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Legalarticle.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Legalarticle.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Legalarticle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -719,11 +944,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 55,
               "Title": "Languagetest.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Languagetest.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Languagetest.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Languagetest.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Languagetest.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Languagetest.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Languagetest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -731,11 +956,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 56,
               "Title": "Jobvacancy.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Jobvacancy.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Jobvacancy.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Jobvacancy.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Jobvacancy.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Jobvacancy.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Jobvacancy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -743,11 +968,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 57,
               "Title": "Housingdocument.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Housingdocument.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Housingdocument.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Housingdocument.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Housingdocument.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Housingdocument.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Housingdocument.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -755,11 +980,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 58,
               "Title": "Housingarticletype.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Housingarticletype.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Housingarticletype.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Housingarticletype.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Housingarticletype.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Housingarticletype.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Housingarticletype.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -767,11 +992,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 59,
               "Title": "Housingarticle.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Housingarticle.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Housingarticle.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Housingarticle.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Housingarticle.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Housingarticle.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Housingarticle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -779,11 +1004,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 60,
               "Title": "Forumreply.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Forumreply.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Forumreply.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Forumreply.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Forumreply.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Forumreply.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Forumreply.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -791,33 +1016,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 61,
               "Title": "Forumpost.cs",
-              "DocumentMoniker": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Forumpost.cs",
+              "DocumentMoniker": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Forumpost.cs",
               "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Forumpost.cs",
-              "ToolTip": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\Models\\Forumpost.cs",
+              "ToolTip": "C:\\Users\\glebo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\APIPRAWEB\\PRAAPIWEB\\Models\\Forumpost.cs",
               "RelativeToolTip": "PRAAPIWEB\\Models\\Forumpost.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T22:44:35.532Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             }
           ]
         }

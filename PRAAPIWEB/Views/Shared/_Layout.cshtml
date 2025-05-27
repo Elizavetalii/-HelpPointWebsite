@@ -19,15 +19,17 @@
             </a>
 
             <nav class="d-flex align-items-center flex-wrap" style="gap: 18px; font-size: 14px;">
-                <a class="text-decoration-none text-dark" asp-controller="Home" asp-action="Index">Главная</a>
-                <a class="text-decoration-none text-dark" asp-controller="Language" asp-action="Index">Изучение языка</a>
-                <a class="text-decoration-none text-dark" asp-controller="LegalAid" asp-action="Index">Юридическая помощь</a>
-                <a class="text-decoration-none text-dark" asp-controller="Jobs" asp-action="Index">Работа</a>
-                <a class="text-decoration-none text-dark" asp-controller="Support" asp-action="Index">Поддержка</a>
-                <a class="text-decoration-none text-dark" asp-controller="Health" asp-action="Index">Медицина</a>
-                <a class="text-decoration-none text-dark" asp-controller="Housing" asp-action="Index">Жильё</a>
-                <a class="text-decoration-none text-dark" asp-controller="SocialAid" asp-action="Index">Соц.поддержка</a>
-                <a class="text-decoration-none text-dark" asp-controller="Map" asp-action="Index">Карта помощи</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Home" asp-action="Index">Главная</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Language" asp-action="Language">Изучение языка</a>
+                    <a class="text-decoration-none text-dark" asp-controller="LegalAid" asp-action="LegalHelp">Юридическая помощь</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Jobs" asp-action="JobSearch">Работа</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Support" asp-action="Forum">Форум</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Health" asp-action="Medical">Медицина</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Housing" asp-action="Accommodation">Жильё</a>
+                    <a class="text-decoration-none text-dark" asp-controller="SocialAid" asp-action="SocialSupport">Соц.поддержка</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Map" asp-action="HelpMap">Карта помощи</a>
+            
+
 
                 @if (User.Identity?.IsAuthenticated == true)
                 {

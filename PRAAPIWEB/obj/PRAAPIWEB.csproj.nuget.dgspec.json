@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\PRAAPIWEB.csproj": {}
+    "C:\\Users\\glebo\\OneDrive\\Рабочий стол\\APIPRAWEB\\PRAAPIWEB\\PRAAPIWEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\PRAAPIWEB.csproj": {
+    "C:\\Users\\glebo\\OneDrive\\Рабочий стол\\APIPRAWEB\\PRAAPIWEB\\PRAAPIWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\PRAAPIWEB.csproj",
+        "projectUniqueName": "C:\\Users\\glebo\\OneDrive\\Рабочий стол\\APIPRAWEB\\PRAAPIWEB\\PRAAPIWEB.csproj",
         "projectName": "PRAAPIWEB",
-        "projectPath": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\PRAAPIWEB.csproj",
-        "packagesPath": "C:\\Users\\alepi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alepi\\source\\repos\\PRAAPIWEB\\PRAAPIWEB\\obj\\",
+        "projectPath": "C:\\Users\\glebo\\OneDrive\\Рабочий стол\\APIPRAWEB\\PRAAPIWEB\\PRAAPIWEB.csproj",
+        "packagesPath": "C:\\Users\\glebo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\glebo\\OneDrive\\Рабочий стол\\APIPRAWEB\\PRAAPIWEB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alepi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\glebo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
