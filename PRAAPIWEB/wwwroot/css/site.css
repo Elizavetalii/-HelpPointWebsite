@@ -1,22 +1,241 @@
-html {
-  font-size: 14px;
-}
+
+
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
 
-html {
-  position: relative;
-  min-height: 100%;
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
+
+main {
+    flex: 1 0 auto; 
+    padding-bottom: 2rem;
+}
+
+.footer {
+    margin-top: auto; 
+    padding: 1.5rem 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+
+.welcome-block {
+    background-image: url('https://raw.githubusercontent.com/Elizavetalii/-HelpPointWebsite/main/hand.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+}
+
+.welcome-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    border-radius: 15px;
+    color: white;
+    max-width: 800px;
+}
+
+    .welcome-text h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .welcome-text p {
+        font-size: 1.2rem;
+    }
+
+.language-greetings {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #f8f9fa;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.help-section {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.help-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.help-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.services-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0;
+    color: #2c3e50;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 25px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.service-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.more-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #2C35E0FF;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    border: 2px solid #3498db;
+}
+
+.more-link:hover {
+    background-color: white;
+    color: #3498db !important;
+    text-decoration: none;
+}
+
+.success-stories {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+    .success-stories h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+.stories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.story {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 250px;
+    text-align: left;
+}
+
+    .story p {
+        margin: 0 0 10px;
+    }
+
+    .story em {
+        color: #555;
+        font-style: italic;
+    }
+
+    .story strong {
+        color: #333;
+    }
+
+.highlighted {
+    border: 2px solid #a5b4fc;
+    background-color: #eef2ff;
+}
+.button {
+top: 231px;
+      left: 25px;
+      width: 236px;
+      height: 40px;       padding: 0 12px;
+        display: flex;
+   align-items: center;
+ justify-content: center;
+ font-family: Inter;
+ font-size: 14px;
+ line-height: 22px;
+ font-weight: 500;
+ color: #FFFFFFFF;
+ background: #636AE8FF;
+ opacity: 1;
+ border: none;
+ border-radius: 6px;
+}
+
+
+
+

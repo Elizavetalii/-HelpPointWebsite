@@ -8,74 +8,58 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PRAAPIWEB.styles.css" asp-append-version="true" />
 </head>
-<body>
-    <header class="bg-white border-bottom shadow-sm mb-3" style="background-color: #f3f3f7; border-bottom: 1px solid #ddd;">
+<body class="d-flex flex-column min-vh-100">
+
+    <header class="bg-white border-bottom shadow-sm">
         <div class="container d-flex justify-content-between align-items-center py-2">
-            <!-- Логотип и название -->
             <a class="d-flex align-items-center text-decoration-none text-dark" asp-controller="AboutProject" asp-action="Index">
                 <img src="https://github.com/Elizavetalii/-HelpPointWebsite/blob/main/log.png?raw=true"
                      alt="Пункт помощи" style="height: 32px; margin-right: 8px;" />
                 <span class="fw-bold" style="font-size: 16px;">Пункт помощи</span>
             </a>
 
-            <!-- Навигация -->
-            <nav class="d-flex align-items-center flex-wrap" style="gap: 18px; font-size: 14px; color: #000;">
-                <a class="text-decoration-none" asp-controller="Home" asp-action="Index" style="color: #000;">Главная</a>
-                <a class="text-decoration-none" asp-controller="Language" asp-action="Index" style="color: #000;">Изучение языка</a>
-                <a class="text-decoration-none" asp-controller="LegalAid" asp-action="Index" style="color: #000;">Юридическая помощь</a>
-                <a class="text-decoration-none" asp-controller="Jobs" asp-action="Index" style="color: #000;">Работа</a>
-                <a class="text-decoration-none" asp-controller="Support" asp-action="Index" style="color: #000;">Поддержка и общение</a>
-                <a class="text-decoration-none" asp-controller="Health" asp-action="Index" style="color: #000;">Медицина</a>
-                <a class="text-decoration-none" asp-controller="Housing" asp-action="Index" style="color: #000;">Жильё</a>
-                <a class="text-decoration-none" asp-controller="SocialAid" asp-action="Index" style="color: #000;">Соц.поддержка</a>
-                <a class="text-decoration-none" asp-controller="Map" asp-action="Index" style="color: #000;">Карта помощи</a>
+            <nav class="d-flex align-items-center flex-wrap" style="gap: 18px; font-size: 14px;">
+                <a class="text-decoration-none text-dark" asp-controller="Home" asp-action="Index">Главная</a>
+                <a class="text-decoration-none text-dark" asp-controller="Language" asp-action="Index">Изучение языка</a>
+                <a class="text-decoration-none text-dark" asp-controller="LegalAid" asp-action="Index">Юридическая помощь</a>
+                <a class="text-decoration-none text-dark" asp-controller="Jobs" asp-action="Index">Работа</a>
+                <a class="text-decoration-none text-dark" asp-controller="Support" asp-action="Index">Поддержка</a>
+                <a class="text-decoration-none text-dark" asp-controller="Health" asp-action="Index">Медицина</a>
+                <a class="text-decoration-none text-dark" asp-controller="Housing" asp-action="Index">Жильё</a>
+                <a class="text-decoration-none text-dark" asp-controller="SocialAid" asp-action="Index">Соц.поддержка</a>
+                <a class="text-decoration-none text-dark" asp-controller="Map" asp-action="Index">Карта помощи</a>
 
-                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                @if (User.Identity?.IsAuthenticated == true)
                 {
-                    <a class="text-decoration-none" asp-controller="Account" asp-action="Logout" style="color: #000;">Выйти</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Account" asp-action="Logout">Выйти</a>
                 }
                 else
                 {
-                    <a class="text-decoration-none" asp-controller="Account" asp-action="Login" style="color: #000;">Вход</a>
-                    <a class="text-decoration-none" asp-controller="Account" asp-action="Register" style="color: #000;">Регистрация</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Account" asp-action="Login">Вход</a>
+                    <a class="text-decoration-none text-dark" asp-controller="Account" asp-action="Register">Регистрация</a>
                 }
             </nav>
         </div>
     </header>
 
-    <!-- Основной контент -->
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <main class="flex-grow-1">
+        @RenderBody()
+    </main>
 
-    <!-- Футер -->
-    <footer class="footer text-muted bg-white text-center text-dark py-4 border-top">
+    <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
             <h6 class="fw-bold">Пункт помощи</h6>
             <p class="mb-2 fw-semibold">Подписаться на рассылку новостей</p>
             <form class="d-flex justify-content-center align-items-center gap-2 flex-wrap" style="max-width: 500px; margin: 0 auto;">
                 <div class="input-group" style="max-width: 300px;">
-                    <span class="input-group-text bg-white border-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                             class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.217l-8 4.8-8-4.8V4z" />
-                            <path d="M0 5.383l7.555 4.533a.5.5 0 0 0 .89 0L16 5.383V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.383z" />
-                        </svg>
-                    </span>
-                    <input type="email" class="form-control border-secondary" placeholder="Введите ваш email" />
+                    <span class="input-group-text bg-white border-secondary">📧</span>
+                    <input type="email" class="form-control border-secondary" placeholder="Ваш email" />
                 </div>
-                <button class="btn btn-primary">Подписаться</button>
+                <button type="submit" class="btn btn-secondary">Подписаться</button>
             </form>
-            <p class="text-muted small mt-4 mb-0">&copy; 2025 Пункт помощи.</p>
         </div>
     </footer>
 
-    <!-- Скрипты -->
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

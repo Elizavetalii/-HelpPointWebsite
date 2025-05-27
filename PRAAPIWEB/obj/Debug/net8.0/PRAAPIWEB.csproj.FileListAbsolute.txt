@@ -45,3 +45,4 @@ C:\Users\alepi\source\repos\PRAAPIWEB\PRAAPIWEB\obj\Debug\net8.0\refint\PRAAPIWE
 C:\Users\alepi\source\repos\PRAAPIWEB\PRAAPIWEB\obj\Debug\net8.0\PRAAPIWEB.pdb
 C:\Users\alepi\source\repos\PRAAPIWEB\PRAAPIWEB\obj\Debug\net8.0\PRAAPIWEB.genruntimeconfig.cache
 C:\Users\alepi\source\repos\PRAAPIWEB\PRAAPIWEB\obj\Debug\net8.0\ref\PRAAPIWEB.dll
+C:\Users\alepi\source\repos\PRAAPIWEB\PRAAPIWEB\obj\Debug\net8.0\PRAAPIWEB.sourcelink.json

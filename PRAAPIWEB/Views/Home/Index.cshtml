@@ -1,20 +1,103 @@
 ﻿@model List<PRAAPIWEB.Models.Aboutprojectsection>
-
-<h1>О проекте</h1>
-
-@if (Model == null || !Model.Any())
-{
-    <p>Информация пока отсутствует.</p>
+@{
+    ViewData["Title"] = "Главная";
 }
-else
-{
-    foreach (var item in Model)
-    {
-        <section>
-            <h2>@item.Section</h2>
-            <p>@item.Content</p>
-        </section>
-    }
-}
+<link rel="stylesheet" href="~/css/site.css" />
 
-<p>Получено секций: @ViewBag.SectionsCount</p>
+
+<div class="welcome-block">
+    <div class="welcome-text">
+        <h1>Добро пожаловать в Пункт помощи!</h1>
+        <p>Мы здесь, чтобы помочь вам адаптироваться в новой стране. Найдите всю необходимую информацию и поддержку.</p>
+    </div>
+</div>
+
+<div class="language-greetings">
+    <span>Ршрф quрпuuu</span>
+    <span>Хуш омадед</span>
+    <span>Xush kelibsiz</span>
+</div>
+
+    <h2>Как мы можем помочь?</h2>
+    <p>Пункт помощи предоставляет комплексную поддержку мигрантам: от изучения языка и юридической помощи до поиска работы и жилья. Наша цель — сделать вашу адаптацию максимально комфортной.</p>
+</div>
+
+<h3 class="services-title">Наши Услуги</h3>
+<div class="services-grid">
+    <a href="/LanguageLearning" class="service-card">
+        <h3>Изучение языка</h3>
+        <p>Онлайн-тесты и учебные материалы для быстрого освоения.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/Housing" class="service-card">
+        <h3>Жилё</h3>
+        <p>Поиск аренды, образцы договоров, советы по безопасности.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/LegalHelp" class="service-card">
+        <h3>Юридическая помощь</h3>
+        <p>Пошаговые инструкции, образцы документов для легализации.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/SocialSupport" class="service-card">
+        <h3>Соцподдержка</h3>
+        <p>Помощь семьям, информация о детсадах и выплатах.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/Jobs" class="service-card">
+        <h3>Работа</h3>
+        <p>Поиск вакансий, информация о трудовых правах и патентах.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/Community" class="service-card">
+        <h3>Поддержка и общение</h3>
+        <p>Форум для обмена опытом, истории мигрантов.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/MedicalHelp" class="service-card">
+        <h3>Медицина</h3>
+        <p>Экстренная помощь, номер врача, медицинский словарь.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+
+    <a href="/HelpMap" class="service-card">
+        <h3>Карта помощи</h3>
+        <p>Адреса юристов, клиник, школ на карте.</p>
+        <span class="more-link">Подробнее</span>
+    </a>
+</div>
+<div class="success-stories">
+    <h2>Истории Успеха</h2>
+    <div class="stories-grid">
+        <div class="story highlighted">
+            <p><em>"Благодаря 'Пункт помощи' я быстро нашел работу и оформил все необходимые документы. Это изменило мою жизнь!"</em></p>
+            <p><strong>Ахмед, Москва</strong></p>
+        </div>
+        <div class="story">
+            <p><em>"Изучение русского языка стало намного проще с их онлайн-материалами. Теперь я могу свободно общаться."</em></p>
+            <p><strong>Наргиза, Санкт-Петербург</strong></p>
+        </div>
+        <div class="story">
+            <p><em>"Получила юридическую консультацию и смогла правильно оформить все разрешения. Очень благодарна за помощь!"</em></p>
+            <p><strong>Елена, Екатеринбург</strong></p>
+        </div>
+        <div class="story">
+            <p><em>"Форум помог найти ответы на многие вопросы и познакомиться с людьми, которые прошли через то же самое."</em></p>
+            <p><strong>Дамир, Казань</strong></p>
+        </div>
+        <div class="story">
+            <p><em>"Нашел полезную информацию о социальных выплатах и поддержке для моей семьи. Это очень важно."</em></p>
+            <p><strong>Сергей, Новосибирск</strong></p>
+        </div>
+        <div class="story">
+            <p><em>"Карта с адресами врачей и юристов очень выручила в незнакомом городе."</em></p>
+            <p><strong>Гульмира, Нижний Новгород</strong></p>
+        </div>
+    </div>
+</div>
