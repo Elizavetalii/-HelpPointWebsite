@@ -14,7 +14,7 @@ namespace PRAAPIWEB.Services
         public AuthService(HttpClient client) // ← Должен быть public!
         {
             _client = client;
-            _client.BaseAddress = new Uri("https://apipra-production-95b2.up.railway.app/");
+            _client.BaseAddress = new Uri("https://apipra-production-912b.up.railway.app/");
         }
 
         public async Task<LoginResponse> LoginAsync(LoginModel model)

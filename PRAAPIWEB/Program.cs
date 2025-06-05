@@ -27,7 +27,12 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 
 builder.Services.AddAuthorization();
-
+builder.Services.AddHttpClient<ApiService>();
+builder.Services.AddSingleton<LikeStorageService>();
+//var likeStorage = new LikeStorageService();
+//builder.Services.AddSingleton<LikeStorageService>(likeStorage);
+//builder.Services.AddScoped<LikeStorageService>();
+//builder.Services.AddSingleton<PRAAPIWEB.Services.LikeStorageService>(); 
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

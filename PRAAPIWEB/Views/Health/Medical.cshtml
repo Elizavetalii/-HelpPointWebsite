@@ -1,5 +1,102 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model PRAAPIWEB.Models.MedicalViewModel
+
+<div class="container my-5">
+    <h1 class="mb-4">Ресурсы медицинской помощи</h1>
+
+    <div class="row">
+        <!-- Emergency Procedures Section -->
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h4 mb-3">Что делать в чрезвычайной ситуации</h2>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var procedure in ViewBag.EmergencyProcedures)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                @procedure.Title
+                                @if (procedure.Completed)
+                                {
+                                    <span class="badge bg-success rounded-pill">✓</span>
+                                }
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Emergency Contacts Section -->
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h4 mb-3">Экстренные контакты</h2>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var contact in ViewBag.EmergencyContacts)
+                        {
+                            <li class="list-group-item">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>@contact.Name</span>
+                                    <strong class="text-danger">@contact.Number</strong>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                    <div class="mt-3 text-center">
+                        <button class="btn btn-danger">Вызов экстренной помощи</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Free Clinics Section -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h2 class="card-title h4 mb-3">Бесплатные клиники поблизости</h2>
+            <div class="row">
+                @foreach (var clinic in Model.Clinics.Where(c => c.IsFree == true))
+                {
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="h5">@clinic.Name</h3>
+                                <p class="mb-1">@clinic.Address</p>
+                                @if (!string.IsNullOrEmpty(clinic.Phone))
+                                {
+                                    <p class="mb-0">Телефон: <a href="tel:@clinic.Phone">@clinic.Phone</a></p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Medical Articles Section -->
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="card-title h4 mb-3">Полезные медицинские статьи</h2>
+            <div class="accordion" id="medicalArticlesAccordion">
+                @foreach (var article in Model.Articles)
+                {
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="heading@(article.Id)">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse@(article.Id)" aria-expanded="false"
+                                    aria-controls="collapse@(article.Id)">
+                                @article.Topic
+                            </button>
+                        </h3>
+                        <div id="collapse@(article.Id)" class="accordion-collapse collapse"
+                             aria-labelledby="heading@(article.Id)" data-bs-parent="#medicalArticlesAccordion">
+                            <div class="accordion-body">
+                                @Html.Raw(article.Content)
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

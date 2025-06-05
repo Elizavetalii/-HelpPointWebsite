@@ -1,5 +1,1046 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model PRAAPIWEB.Models.HousingViewModel
+
+<div class="housing-container">
+    <!-- Hero секция -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Помощь мигрантам в адаптации и поиске жилья в России</h1>
+            <p class="hero-description">Получите полезную информацию о поиске жилья, своих правах и адаптации в новой стране.</p>
+
+          @*   <div class="hero-actions">
+                <a href="#articles" class="hero-button">Советы по аренде</a>
+                <a href="#documents" class="hero-button secondary">Документы</a>
+            </div>
+
+            <div class="scroll-indicator" onclick="scrollToContent()">
+                <svg class="scroll-icon" viewBox="0 0 24 24">
+                    <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
+                </svg>
+            </div> *@
+        </div>
+
+        <!-- Анимированные фоновые элементы -->
+        <div class="hero-pattern"></div>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="main-content">
+        <!-- Карточки статей -->
+        <section class="articles-section">
+            <h2 class="section-title with-decoration">Советы по аренде жилья</h2>
+            <p class="section-subtitle">Уверенно ориентируйтесь на рынке аренды. Найдите советы по аренде, избегайте мошенничества и полезные документы.</p>
+
+            <div class="articles-grid">
+                @foreach (var article in Model.BasicInfoArticles)
+                {
+                    <div class="article-card" onclick="showArticleModal(@article.Id, 'basic')">
+                        <div class="card-badge">Совет</div>
+                        <div class="article-image-container">
+                            @if (Model.ArticleImages.ContainsKey(article.Id))
+                            {
+                                <img src="@Model.ArticleImages[article.Id]" alt="@article.Title" class="article-image">
+                            }
+                            else
+                            {
+                                <div class="article-image-placeholder" style="background-color: @GetRandomColor();">
+                                    @article.Title.Substring(0, 1)
+                                </div>
+                            }
+                            <div class="article-overlay"></div>
+                        </div>
+                        <div class="article-content">
+                            <h3 class="article-title">@article.Title</h3>
+                            <div class="article-excerpt">
+                                @Html.Raw(GetArticleExcerpt(article.Content, 120))
+                            </div>
+                            <div class="read-more-btn">Читать →</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+
+        <!-- Документы -->
+        <section class="documents-section">
+            <h2 class="section-title with-decoration">Документы</h2>
+            <p class="section-subtitle">Важные документы и руководства для скачивания</p>
+
+            <div class="documents-grid">
+                @foreach (var article in Model.DocumentArticles)
+                {
+                    <div class="document-card" onclick="showArticleModal(@article.Id, 'document')">
+                        <div class="document-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" />
+                            </svg>
+                        </div>
+                        <div class="document-content">
+                            <h3>@article.Title</h3>
+                            <div class="document-excerpt">
+                                @Html.Raw(GetArticleExcerpt(article.Content, 80))
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                @if (Model.Documents.Any())
+                {
+                    <div class="downloads-section">
+                        <h3 class="downloads-title">Скачать документы</h3>
+                        <div class="downloads-grid">
+                            @foreach (var doc in Model.Documents)
+                            {
+                                <a href="@doc.FileUrl" target="_blank" class="download-card">
+                                    <div class="download-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+                                        </svg>
+                                    </div>
+                                    <div class="download-info">
+                                        <span class="download-name">@doc.Name</span>
+                                        <span class="download-size">PDF, @(new Random().Next(1, 5)) MB</span>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+
+        <!-- Полезные ресурсы -->
+        <section class="resources-section">
+            <h2 class="section-title with-decoration">Полезные ресурсы</h2>
+            <p class="section-subtitle">Официальные источники и полезные сайты</p>
+
+            <div class="resources-grid">
+                @foreach (var article in Model.UsefulResourcesArticles)
+                {
+                    <div class="resource-card" onclick="showArticleModal(@article.Id, 'resource')">
+                        <div class="resource-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                            </svg>
+                        </div>
+                        <div class="resource-content">
+                            <h3>@article.Title</h3>
+                            <div class="resource-excerpt">
+                                @Html.Raw(GetArticleExcerpt(article.Content, 100))
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <!-- Дополнительные ресурсы -->
+                <a href="https://мвд.рф" target="_blank" class="external-resource-card">
+                    <div class="resource-logo">
+                        <img src="https://via.placeholder.com/40" alt="МВД РФ">
+                    </div>
+                    <div class="resource-info">
+                        <h3>Официальный сайт МВД России</h3>
+                        <p>Информация о регистрации и документах</p>
+                    </div>
+                    <div class="external-link-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Платформы для поиска жилья -->
+        <section class="platforms-section">
+            <h2 class="section-title with-decoration">Где искать жилье в России</h2>
+            <p class="section-subtitle">Популярные платформы для поиска аренды</p>
+
+            <div class="platforms-carousel">
+                @foreach (var platform in GetHousingPlatforms())
+                {
+                    <div class="platform-card" onclick="window.open('@platform.Url', '_blank')">
+                        <div class="platform-logo" style="background-color: @platform.Color;">
+                            @platform.Initial
+                        </div>
+                        <div class="platform-info">
+                            <h3>@platform.Name</h3>
+                            <p>@platform.Description</p>
+                        </div>
+                        <div class="platform-cta">
+                            <span>Перейти</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                            </svg>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- Модальное окно для статей -->
+<div class="article-modal" id="articleModal">
+    <div class="modal-overlay" onclick="closeModal()"></div>
+    <div class="modal-container">
+        <button class="modal-close" onclick="closeModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+            </svg>
+        </button>
+        <div class="modal-content" id="modalArticleContent">
+            <!-- Контент будет загружен динамически -->
+        </div>
+    </div>
+</div>
+
+@functions {
+    string GetArticleExcerpt(string content, int length)
+    {
+        var plainText = System.Text.RegularExpressions.Regex.Replace(content, "<.*?>", string.Empty);
+        return plainText.Length > length ? plainText.Substring(0, length) + "..." : plainText;
+    }
+
+    string GetRandomColor()
+    {
+        var colors = new List<string> { "#4285F4", "#34A853", "#EA4335", "#FBBC05", "#673AB7", "#FF5722", "#009688" };
+        return colors[new Random().Next(colors.Count)];
+    }
+
+    List<dynamic> GetHousingPlatforms()
+    {
+        return new List<dynamic>
+        {
+            new { Name = "ЦИАН", Url = "https://www.cian.ru", Initial = "Ц", Color = "#4CAF50", Description = "Крупнейшая база недвижимости" },
+            new { Name = "Авито Недвижимость", Url = "https://www.avito.ru/nedvizhimost", Initial = "А", Color = "#FF5A5F", Description = "Объявления от собственников" },
+            new { Name = "Domclick", Url = "https://domclick.ru", Initial = "D", Color = "#2196F3", Description = "От Сбербанка" },
+            new { Name = "Яндекс.Недвижимость", Url = "https://yandex.ru/realty/", Initial = "Я", Color = "#FF5722", Description = "С проверенными объявлениями" },
+            new { Name = "Мир Квартир", Url = "https://www.mirkvartir.ru", Initial = "М", Color = "#9C27B0", Description = "База объявлений" },
+            new { Name = "Квартирант", Url = "https://www.kvartirant.ru", Initial = "К", Color = "#3F51B5", Description = "Поиск жилья" },
+            new { Name = "Соцсети", Url = "https://vk.com", Initial = "S", Color = "#607D8B", Description = "Местные группы (VK, Telegram)" }
+        };
+    }
 }
+
+<style>
+    /* Основные стили */
+    :root {
+        --primary-color: #4285F4;
+        --primary-light: #E8F0FE;
+        --secondary-color: #34A853;
+        --accent-color: #EA4335;
+        --warning-color: #FBBC05;
+        --text-color: #202124;
+        --text-light: #5F6368;
+        --light-gray: #F1F3F4;
+        --medium-gray: #DADCE0;
+        --dark-gray: #3C4043;
+        --border-radius: 12px;
+        --border-radius-sm: 8px;
+        --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        --box-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+        --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Google Sans', Roboto, Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: #fafafa;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    /* Контейнеры */
+    .housing-container {
+        max-width: 1440px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .main-content {
+        padding: 0 24px 60px;
+    }
+
+    /* Секции */
+    section {
+        margin-bottom: 60px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 16px;
+        color: var(--text-color);
+        position: relative;
+    }
+
+        .section-title.with-decoration::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: var(--primary-color);
+            border-radius: 2px;
+            margin-top: 12px;
+        }
+
+    .section-subtitle {
+        font-size: 1.1rem;
+        color: var(--text-light);
+        margin-bottom: 32px;
+        max-width: 700px;
+    }
+
+    /* Hero секция */
+    .hero-section {
+        position: relative;
+        height: 100vh;
+        min-height: 600px;
+        max-height: 1200px;
+        background: linear-gradient(135deg, #4285F4 0%, #3367D6 100%);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 900px;
+        padding: 0 20px;
+        transform: translateY(20px);
+        opacity: 0;
+        animation: fadeInUp 1s ease-out 0.3s forwards;
+    }
+
+    .hero-title {
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .hero-description {
+        font-size: 1.3rem;
+        max-width: 700px;
+        margin: 0 auto 2.5rem;
+        opacity: 0.9;
+        line-height: 1.6;
+    }
+
+    .hero-actions {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .hero-button {
+        display: inline-block;
+        padding: 12px 30px;
+        background: white;
+        color: #4285F4;
+        border-radius: 30px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+        .hero-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .hero-button.secondary {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+    .scroll-indicator {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        animation: bounce 2s infinite;
+    }
+
+    .scroll-icon {
+        width: 40px;
+        height: 40px;
+        fill: white;
+        opacity: 0.8;
+        transition: all 0.3s ease;
+    }
+
+    .scroll-indicator:hover .scroll-icon {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    /* Анимированный фон */
+    .hero-pattern {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(rgba(255,255,255,0.1) 2px, transparent 2px);
+        background-size: 32px 32px;
+        animation: patternMove 60s linear infinite;
+        z-index: 1;
+    }
+
+
+
+    /* Карточки статей */
+    .articles-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+    }
+
+    .article-card {
+        background: white;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        cursor: pointer;
+        position: relative;
+    }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow-lg);
+        }
+
+    .card-badge {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        background: var(--primary-color);
+        color: white;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        z-index: 2;
+    }
+
+    .article-image-container {
+        position: relative;
+        height: 180px;
+        overflow: hidden;
+    }
+
+    .article-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    .article-image-placeholder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .article-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 40%;
+        background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    }
+
+    .article-content {
+        padding: 20px;
+    }
+
+    .article-title {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 12px;
+        color: var(--text-color);
+    }
+
+    .article-excerpt {
+        font-size: 0.95rem;
+        color: var(--text-light);
+        margin-bottom: 16px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .read-more-btn {
+        color: var(--primary-color);
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        transition: var(--transition);
+    }
+
+    .article-card:hover .read-more-btn {
+        transform: translateX(4px);
+    }
+
+    /* Документы */
+    .documents-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+    }
+
+    .document-card {
+        background: white;
+        border-radius: var(--border-radius);
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        cursor: pointer;
+    }
+
+        .document-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--box-shadow-lg);
+        }
+
+    .document-icon {
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        background: var(--primary-light);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary-color);
+    }
+
+        .document-icon svg {
+            width: 24px;
+            height: 24px;
+        }
+
+    .document-content h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .document-excerpt {
+        font-size: 0.9rem;
+        color: var(--text-light);
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .downloads-section {
+        grid-column: 1 / -1;
+        margin-top: 24px;
+    }
+
+    .downloads-title {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: var(--text-color);
+    }
+
+    .downloads-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 16px;
+    }
+
+    .download-card {
+        background: white;
+        border-radius: var(--border-radius-sm);
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+        .download-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--box-shadow-lg);
+        }
+
+    .download-icon {
+        flex-shrink: 0;
+        width: 40px;
+        height: 40px;
+        background: var(--primary-light);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary-color);
+    }
+
+        .download-icon svg {
+            width: 20px;
+            height: 20px;
+        }
+
+    .download-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .download-name {
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+
+    .download-size {
+        font-size: 0.8rem;
+        color: var(--text-light);
+    }
+
+    /* Ресурсы */
+    .resources-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 24px;
+        margin-top: 32px;
+    }
+
+    .resource-card {
+        background: white;
+        border-radius: var(--border-radius);
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        cursor: pointer;
+    }
+
+        .resource-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--box-shadow-lg);
+        }
+
+    .resource-icon {
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        background: #E6F4EA;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--secondary-color);
+    }
+
+        .resource-icon svg {
+            width: 24px;
+            height: 24px;
+        }
+
+    .resource-content h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .resource-excerpt {
+        font-size: 0.9rem;
+        color: var(--text-light);
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .external-resource-card {
+        background: white;
+        border-radius: var(--border-radius);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+        .external-resource-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--box-shadow-lg);
+        }
+
+    .resource-logo {
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: var(--light-gray);
+    }
+
+        .resource-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .resource-info h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .resource-info p {
+        font-size: 0.9rem;
+        color: var(--text-light);
+    }
+
+    .external-link-icon {
+        margin-left: auto;
+        color: var(--medium-gray);
+    }
+
+        .external-link-icon svg {
+            width: 20px;
+            height: 20px;
+        }
+
+    /* Платформы */
+    .platforms-carousel {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 16px;
+        margin-top: 32px;
+    }
+
+    .platform-card {
+        background: white;
+        border-radius: var(--border-radius);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .platform-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 100%);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .platform-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--box-shadow-lg);
+        }
+
+            .platform-card:hover::after {
+                opacity: 1;
+            }
+
+    .platform-logo {
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .platform-info h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .platform-info p {
+        font-size: 0.9rem;
+        color: var(--text-light);
+    }
+
+    .platform-cta {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: var(--primary-color);
+        font-size: 0.9rem;
+        font-weight: 500;
+        opacity: 0;
+        transform: translateX(10px);
+        transition: var(--transition);
+    }
+
+    .platform-card:hover .platform-cta {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .platform-cta svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Модальное окно */
+    .article-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+        .article-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+    .modal-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .modal-container {
+        background: white;
+        border-radius: var(--border-radius);
+        width: 90%;
+        max-width: 800px;
+        max-height: 90vh;
+        overflow-y: auto;
+        position: relative;
+        transform: translateY(20px);
+        transition: transform 0.3s ease;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .article-modal.active .modal-container {
+        transform: translateY(0);
+    }
+
+    .modal-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        background: none;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+        z-index: 2;
+        color: var(--text-light);
+        transition: var(--transition);
+    }
+
+        .modal-close:hover {
+            color: var(--text-color);
+            transform: rotate(90deg);
+        }
+
+        .modal-close svg {
+            width: 24px;
+            height: 24px;
+        }
+
+    .modal-content {
+        padding: 40px;
+    }
+
+        .modal-content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 24px;
+            color: var(--text-color);
+        }
+
+        .modal-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--border-radius-sm);
+            margin: 20px 0;
+        }
+
+        .modal-content p {
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+
+    
+
+</style>
+
+<script>
+    // Функция для скролла к контенту
+    function scrollToContent() {
+        const content = document.getElementById('mainContent');
+        content.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
+    // Инициализация анимации при загрузке
+    document.addEventListener('DOMContentLoaded', function() {
+        // Уже есть анимация через CSS, но можно добавить дополнительные эффекты
+    });
+    // Инициализация всех данных
+    const articlesData = {
+        basic: @Html.Raw(Json.Serialize(Model.BasicInfoArticles)),
+        document: @Html.Raw(Json.Serialize(Model.DocumentArticles)),
+        resource: @Html.Raw(Json.Serialize(Model.UsefulResourcesArticles))
+    };
+
+    const articleImages = @Html.Raw(Json.Serialize(Model.ArticleImages));
+    const articleLinks = @Html.Raw(Json.Serialize(Model.ArticleLinks));
+
+    // Функция для показа статьи (переименована в showArticleModal)
+    function showArticleModal(id, type) {
+        // Находим статью
+        const article = articlesData[type].find(a => a.id === id);
+
+        if (article) {
+            // Проверяем наличие изображения
+            const hasImage = articleImages[article.id] !== undefined;
+            const imageUrl = hasImage ? articleImages[article.id] : '';
+
+            // Проверяем наличие ссылок
+            const hasLinks = articleLinks[article.id] !== undefined;
+            const links = hasLinks ? articleLinks[article.id] : [];
+
+            // Формируем контент
+            let content = `
+                <h2>${article.title}</h2>
+                ${imageUrl ? `<img src="${imageUrl}" alt="${article.title}" class="article-image">` : ''}
+                <div class="article-content">${article.content}</div>
+            `;
+
+            // Добавляем ссылки, если они есть
+            if (links.length > 0) {
+                content += `<div class="article-links">
+                    <h3>Полезные ссылки:</h3>
+                    <ul>`;
+
+                links.forEach(link => {
+                    content += `<li><a href="${link.url}" target="_blank">${link.title}</a></li>`;
+                });
+
+                content += `</ul></div>`;
+            }
+
+            document.getElementById('modalArticleContent').innerHTML = content;
+            document.getElementById('articleModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    // Закрыть модальное окно
+    function closeModal() {
+        const modal = document.getElementById('articleModal');
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+
+        // Чистим контент после анимации
+        setTimeout(() => {
+            document.getElementById('modalArticleContent').innerHTML = '';
+        }, 300);
+    }
+
+    // Закрытие по клику вне модального окна
+    document.addEventListener('click', function(event) {
+        const modal = document.getElementById('articleModal');
+        if (event.target === modal || event.target.classList.contains('modal-overlay')) {
+            closeModal();
+        }
+    });
+
+    // Закрытие по ESC
+    document.addEventListener('keydown', function(event) {
+        const modal = document.getElementById('articleModal');
+        if (event.key === 'Escape' && modal.classList.contains('active')) {
+            closeModal();
+        }
+    });
+
+    // Инициализация анимаций
+    document.addEventListener('DOMContentLoaded', function() {
+        // Установка начальных стилей для анимации
+        const animatedElements = document.querySelectorAll('.article-card, .document-card, .resource-card, .platform-card');
+        animatedElements.forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+
+        // Запуск анимации
+        setTimeout(() => {
+            animatedElements.forEach((el, index) => {
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 100 * index);
+            });
+        }, 100);
+    });
+</script>

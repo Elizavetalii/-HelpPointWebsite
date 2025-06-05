@@ -1,0 +1,1319 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Liza\\Desktop\\PunktMed\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\housing\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\housing\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\housingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\housingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\housingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\housingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\housingarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\helplocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\helplocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\housingarticletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\housingarticletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\services\\likestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\likestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\services\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\services\\aboutprojectsectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\medicalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\medicalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\medicalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\medicalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\medicalclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\medicalclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\health\\medical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\health\\medical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\emergencyprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\emergencyprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\emergencycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\emergencycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\socialaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\socialaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\legalhelpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\legalhelpviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\legalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\legalarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\legalaid\\legalhelp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\legalaid\\legalhelp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\legalaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\legalaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\map\\helpmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\map\\helpmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\linkarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\linkarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\workarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\workarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\aboutpr\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\aboutpr\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\socialaid\\socialsupport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\socialaid\\socialsupport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\articlelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\articlelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\migrationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\migrationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\support\\forum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\support\\forum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\forumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\forumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\forumreply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\forumreply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\userquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\usertestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\usertestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\aboutprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\aboutprcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\aboutprcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\jobvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\jobvacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\socialhelparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\socialhelparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\forumpostdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\forumpostdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\jobs\\jobsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\jobs\\jobsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\language\\language.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\language\\language.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\aboutprojectsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\aboutprojectsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\testimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\testimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|d:\\liza\\desktop\\punktmed\\praapiweb\\models\\languagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1699E54D-DA7F-4E86-8686-683F682F107C}|PRAAPIWEB\\PRAAPIWEB.csproj|solutionrelative:praapiweb\\models\\languagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1546,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Accommodation.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Housing\\Accommodation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:18:03.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T20:28:21.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Housingdocument.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Housingdocument.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Housingdocument.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Housingdocument.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Housingdocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:45:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HousingController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\HousingController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\HousingController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\HousingController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\HousingController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:24:23.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HousingViewModel.cs",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\HousingViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\HousingViewModel.cs",
+              "ToolTip": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\HousingViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\HousingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:41:58.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Housingarticletype.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Housingarticletype.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Housingarticletype.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Housingarticletype.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Housingarticletype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:45:03.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T11:30:04.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LikeStorageService.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\LikeStorageService.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\LikeStorageService.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\LikeStorageService.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Services\\LikeStorageService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:54:15.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\User.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\User.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:46:56.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HelpLocationViewModel.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\HelpLocationViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\HelpLocationViewModel.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\HelpLocationViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\HelpLocationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:02:51.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Housingarticle.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Housingarticle.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Housingarticle.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Housingarticle.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Housingarticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:44:54.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\AuthService.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:03:17.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthHeaderHandler.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Services\\AuthHeaderHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:46:02.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\ApiService.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\ApiService.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:16:28.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AboutProjectSectionService.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Services\\AboutProjectSectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:53:18.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\appsettings.json",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\appsettings.json",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\appsettings.json",
+              "RelativeToolTip": "PRAAPIWEB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T23:07:31.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\HealthController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\HealthController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:21:11.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Medicalclinic.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Medicalclinic.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Medicalclinic.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Medicalclinic.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Medicalclinic.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA8wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:46:02.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Medicalarticle.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Medicalarticle.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Medicalarticle.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Medicalarticle.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Medicalarticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:45:52.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MedicalViewModel.cs",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\MedicalViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\MedicalViewModel.cs",
+              "ToolTip": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\MedicalViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\MedicalViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:30:59.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Medical.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Health\\Medical.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:17:43.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmergencyProcedure.cs",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\EmergencyProcedure.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\EmergencyProcedure.cs",
+              "ToolTip": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\EmergencyProcedure.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\EmergencyProcedure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:30:44.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmergencyContact.cs",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\EmergencyContact.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\EmergencyContact.cs",
+              "ToolTip": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\EmergencyContact.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\EmergencyContact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:30:29.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SocialAidController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\SocialAidController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAQwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:22:00.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LegalHelpViewModel.cs",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LegalHelpViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\LegalHelpViewModel.cs",
+              "ToolTip": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LegalHelpViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\LegalHelpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:46:18.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Legalarticle.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Legalarticle.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Legalarticle.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Legalarticle.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Legalarticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:45:43.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Forumpost.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Forumpost.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Forumpost.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Forumpost.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Forumpost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:44:35.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LegalHelp.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\LegalAid\\LegalHelp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:16:19.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LegalAidController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\LegalAidController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:12:08.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HelpMap.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Map\\HelpMap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:19:10.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SupportController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\SupportController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\SupportController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\SupportController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\SupportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:20:47.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MapController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\MapController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\MapController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\MapController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\MapController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:31:58.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LinkArticle.cs",
+              "DocumentMoniker": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LinkArticle.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\LinkArticle.cs",
+              "ToolTip": "d:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LinkArticle.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\LinkArticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:50:38.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:58:49.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Workarticle.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Workarticle.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Workarticle.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Workarticle.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Workarticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:47:25.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\RegisterRequest.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\RegisterRequest.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:02:34.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\AboutPr\\About.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\AboutPr\\About.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\AboutPr\\About.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\AboutPr\\About.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADgAAACQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T16:10:25.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T10:58:13.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SocialSupport.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\SocialAid\\SocialSupport.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:18:48.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ArticleLink.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ArticleLink.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\ArticleLink.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ArticleLink.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\ArticleLink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:33:12.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Migrationcenter.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Migrationcenter.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Migrationcenter.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Migrationcenter.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Migrationcenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:46:13.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Userquestion.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Userquestion.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Userquestion.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Userquestion.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Userquestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:47:06.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Program.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Program.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Program.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:01:22.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Forumreply.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Forumreply.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Forumreply.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Forumreply.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Forumreply.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:44:44.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Forum.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Support\\Forum.cshtml",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAmwHkBAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:17:07.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T23:45:06.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ForumViewModel.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ForumViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\ForumViewModel.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ForumViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\ForumViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:18:30.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:18:25.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T22:57:25.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Usertestresult.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Usertestresult.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Usertestresult.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Usertestresult.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Usertestresult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:47:14.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AboutProjectController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\AboutProjectController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:55:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AboutPrController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\AboutPrController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\AboutPrController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\AboutPrController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\AboutPrController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T22:26:58.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Socialhelparticle.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Socialhelparticle.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Socialhelparticle.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Socialhelparticle.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Socialhelparticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:46:33.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Jobvacancy.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Jobvacancy.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Jobvacancy.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Jobvacancy.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Jobvacancy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:45:23.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\UserDto.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\UserDto.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:41:17.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\LoginResponse.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:36:20.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ForumPostDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ForumPostDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\ForumPostDetailsViewModel.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ForumPostDetailsViewModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\ForumPostDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:18:49.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\ApiSettings.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\ApiSettings.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\ApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:16:01.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\JobsController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\JobsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:19:53.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "JobSearch.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Jobs\\JobSearch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:16:44.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Language.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Language\\Language.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T23:12:31.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Controllers\\LanguageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:11:25.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "bootstrap-utilities.css.map",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA5UAIA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T13:33:32.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "bootstrap-utilities.css",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwE4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T13:33:06.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T19:19:20.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "bootstrap-utilities.min.css.map",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC2RQEA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-27T13:33:40.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "bootstrap-utilities.rtl.css",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T13:33:43.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T13:34:23.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAAP8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-27T13:32:39.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PRAAPIWEB\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-27T13:32:07.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T19:19:42.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Aboutprojectsection.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Aboutprojectsection.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Aboutprojectsection.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Aboutprojectsection.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Aboutprojectsection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:44:25.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\appsettings.Development.json",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\appsettings.Development.json",
+              "RelativeToolTip": "PRAAPIWEB\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T10:58:29.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\LoginModel.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:02:00.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Testimage.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Testimage.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Testimage.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Testimage.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Testimage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:46:41.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T23:23:37.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "PRAAPIWEB\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T23:23:35.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Languagetest.cs",
+              "DocumentMoniker": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Languagetest.cs",
+              "RelativeDocumentMoniker": "PRAAPIWEB\\Models\\Languagetest.cs",
+              "ToolTip": "D:\\Liza\\Desktop\\PunktMed\\PRAAPIWEB\\Models\\Languagetest.cs",
+              "RelativeToolTip": "PRAAPIWEB\\Models\\Languagetest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T22:45:33.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

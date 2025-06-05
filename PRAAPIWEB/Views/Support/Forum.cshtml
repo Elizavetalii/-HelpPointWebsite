@@ -1,152 +1,412 @@
-﻿<div class="container py-4">
-    <h2 class="mb-3 fw-semibold">Поддержка и общение</h2>
-    <p class="mb-4 text-muted">Поделитесь своей историей, найдите ответы на вопросы и получите поддержку от других мигрантов.</p>
-    <div class="row">
-        <!-- Левая колонка -->
-        <div class="col-lg-4 mb-4">
-            <h5 class="mb-3"><span class="me-2" style="color:#E57373;">&#9829;</span>Истории сообщества</h5>
-            <!-- Карточка истории -->
-            <div class="card mb-3">
-                <img src="img1.jpg" class="card-img-top" alt="История 1">
-                <div class="card-body">
-                    <h6 class="card-title fw-semibold">Мой путь к новой жизни: История адаптации</h6>
-                    <p class="card-text text-muted small">Переезд в новую страну — это всегда вызов. Хочу поделиться своей историей о том, как я преодолел трудности и нашел своё место...</p>
-                    <div class="text-muted small">Анна К. • 2 дня назад</div>
-                </div>
-            </div>
-            <div class="card mb-3">
-                <img src="img2.jpg" class="card-img-top" alt="История 2">
-                <div class="card-body">
-                    <h6 class="card-title fw-semibold">Как мне помогли найти жильё: Реальная история</h6>
-                    <p class="card-text text-muted small">Проблема с жильём была самой острой после переезда. Благодаря поддержке и советам я смог найти подходящий вариант...</p>
-                    <div class="text-muted small">Сергей В. • 5 дней назад</div>
-                </div>
-            </div>
-            <div class="card mb-3">
-                <img src="img3.jpg" class="card-img-top" alt="История 3">
-                <div class="card-body">
-                    <h6 class="card-title fw-semibold">Юридические тонкости: Как правильно оформить документы</h6>
-                    <p class="card-text text-muted small">Оформление документов кажется сложным, но при правильном подходе всё возможно. Делюсь своим опытом и полезными советами...</p>
-                    <div class="text-muted small">Ирина Л. • Неделю назад</div>
-                </div>
-            </div>
-            <!-- Популярные темы -->
-            <div class="card mt-4">
-                <div class="card-body">
-                    <h6 class="fw-semibold mb-3">Популярные темы</h6>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            Оформление РВП/ВНЖ
-                            <span class="badge bg-light text-dark border rounded-pill">155</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            Поиск работы: Советы
-                            <span class="badge bg-light text-dark border rounded-pill">120</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            Аренда жилья: Опыт
-                            <span class="badge bg-light text-dark border rounded-pill">98</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            Курсы русского языка
-                            <span class="badge bg-light text-dark border rounded-pill">75</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            Социальная поддержка
-                            <span class="badge bg-light text-dark border rounded-pill">60</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                            Медицинская помощь
-                            <span class="badge bg-light text-dark border rounded-pill">48</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+﻿@using PRAAPIWEB.Services
+@model PRAAPIWEB.Models.ForumViewModel
+@inject LikeStorageService _likeStorage
 
-        <!-- Правая колонка -->
-        <div class="col-lg-8">
-            <div class="d-flex justify-content-between align-items-center mb-2">
-                <h5 class="mb-0"><span class="me-2" style="color:#1976D2;">&#128172;</span>Последние обсуждения</h5>
-                <input type="search" class="form-control form-control-sm w-50" placeholder="Поиск по форуму...">
-            </div>
-            <!-- Форма создания записи -->
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h6 class="fw-semibold mb-2">Создать новую запись</h6>
-                    <form>
-                        <input type="text" class="form-control mb-2" placeholder="Тема">
-                        <textarea class="form-control mb-2" rows="2" placeholder="Что у вас на уме?"></textarea>
-                        <button type="submit" class="btn btn-primary w-100">Опубликовать</button>
+<style>
+    .forum-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .section-title {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .lead {
+        color: #7f8c8d;
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+    }
+
+    .post-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        padding: 25px;
+        margin-bottom: 25px;
+        transition: transform 0.2s;
+    }
+
+        .post-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .post-card h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .post-card p {
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+    .post-meta {
+        color: #7f8c8d;
+        font-size: 0.85rem;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .post-actions {
+        display: flex;
+        gap: 20px;
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #ecf0f1;
+    }
+
+    .action-btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #7f8c8d;
+        cursor: pointer;
+        font-size: 0.9rem;
+        transition: all 0.2s;
+    }
+
+        .action-btn:hover {
+            color: #3498db;
+        }
+
+        .action-btn.liked {
+            color: #e74c3c;
+        }
+
+            .action-btn.liked:hover {
+                color: #c0392b;
+            }
+
+    .new-post-form {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        margin-bottom: 30px;
+    }
+
+        .new-post-form h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+    .popular-topics {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        margin-bottom: 25px;
+    }
+
+    .topic-tag {
+        display: inline-block;
+        background: #ecf0f1;
+        padding: 6px 12px;
+        border-radius: 20px;
+        margin: 5px;
+        color: #2c3e50;
+        font-size: 0.85rem;
+        transition: all 0.2s;
+        cursor: pointer;
+    }
+
+        .topic-tag:hover {
+            background: #3498db;
+            color: white;
+            transform: translateY(-1px);
+        }
+
+    .search-form {
+        margin-bottom: 30px;
+    }
+
+        .search-form .input-group {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 30px;
+            overflow: hidden;
+        }
+
+        .search-form input {
+            border: none;
+            padding: 12px 20px;
+        }
+
+        .search-form button {
+            padding: 0 20px;
+            border: none;
+            background: #3498db;
+            color: white;
+        }
+
+    .reply-form {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #ecf0f1;
+    }
+
+    .reply-item {
+        margin-top: 15px;
+        padding-left: 15px;
+        border-left: 3px solid #3498db;
+    }
+
+    .alert-info {
+        background-color: #e8f4fd;
+        border-color: #b8daf8;
+        color: #2c3e50;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: #3498db;
+        border-color: #3498db;
+    }
+
+    .pagination .page-link {
+        color: #3498db;
+    }
+
+    .user-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+        background: #3498db;
+        color: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+</style>
+
+<div class="forum-container">
+    <h1 class="section-title">Форум - ваша поддержка и общение</h1>
+    <p class="lead">Поделитесь своей историей, найдите ответы на вопросы и получите поддержку от других мигрантов.</p>
+
+    <!-- Форма поиска -->
+    <form asp-action="Forum" method="get" class="search-form">
+        <div class="input-group">
+            <input type="text" class="form-control" name="searchQuery" value="@Model.SearchQuery" placeholder="Поиск по форуму...">
+            <button class="btn btn-primary" type="submit">
+                <i class="bi bi-search"></i> Найти
+            </button>
+            @if (!string.IsNullOrEmpty(Model.SearchQuery))
+            {
+                <a href="@Url.Action("Forum")" class="btn btn-outline-secondary">
+                    <i class="bi bi-x-circle"></i> Сбросить
+                </a>
+            }
+        </div>
+    </form>
+
+    <div class="row">
+        <div class="col-md-8">
+            <!-- Форма создания нового поста -->
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="new-post-form">
+                    <h3><i class="bi bi-plus-circle"></i> Создать новую запись</h3>
+                    <form asp-action="CreatePost" method="post">
+                        <div class="mb-3">
+                            <label for="postTitle" class="form-label">Тема</label>
+                            <input type="text" class="form-control" id="postTitle" name="title" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="postContent" class="form-label">Что у вас на уме?</label>
+                            <textarea class="form-control" id="postContent" name="content" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-send"></i> Опубликовать
+                        </button>
                     </form>
                 </div>
-            </div>
-            <!-- Список обсуждений -->
-            <div class="card mb-2">
-                <div class="card-body d-flex">
-                    <img src="avatar1.png" alt="Аватар" class="rounded-circle me-2" style="width:36px; height:36px;">
-                    <div class="flex-grow-1">
-                        <div class="d-flex justify-content-between">
-                            <strong>Марина</strong>
-                            <span class="text-muted small">10:15 AM</span>
-                        </div>
-                        <p class="mb-2">Привет всем! Только что переехала, ищу советы по быстрой адаптации. С чего лучше начать?</p>
-                        <span class="me-3 text-muted small">&#10084; 15</span>
-                        <span class="text-muted small">&#128172; 7</span>
-                    </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <i class="bi bi-info-circle"></i> <a asp-controller="Account" asp-action="Login" class="alert-link">Войдите</a>, чтобы создавать посты и отвечать
                 </div>
-            </div>
-            <div class="card mb-2">
-                <div class="card-body d-flex">
-                    <img src="avatar2.png" alt="Аватар" class="rounded-circle me-2" style="width:36px; height:36px;">
-                    <div class="flex-grow-1">
-                        <div class="d-flex justify-content-between">
-                            <strong>Игорь К.</strong>
-                            <span class="text-muted small">9:30 AM</span>
-                        </div>
-                        <p class="mb-2">Подскажите, пожалуйста, как подтвердить свой диплом об образовании в новой стране? Какие шаги нужно предпринять?</p>
-                        <span class="me-3 text-muted small">&#10084; 8</span>
-                        <span class="text-muted small">&#128172; 4</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-2">
-                <div class="card-body d-flex">
-                    <img src="avatar3.png" alt="Аватар" class="rounded-circle me-2" style="width:36px; height:36px;">
-                    <div class="flex-grow-1">
-                        <div class="d-flex justify-content-between">
-                            <strong>Елена В.</strong>
-                            <span class="text-muted small">Вчера 18:00</span>
-                        </div>
-                        <p class="mb-2">Делюсь радостью! Наконец-то получила разрешение на временное проживание. Весь процесс занял 3 месяца. Не опускайте руки!</p>
-                        <span class="me-3 text-muted small">&#10084; 35</span>
-                        <span class="text-muted small">&#128172; 12</span>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-2">
-                <div class="card-body d-flex">
-                    <img src="avatar4.png" alt="Аватар" class="rounded-circle me-2" style="width:36px; height:36px;">
-                    <div class="flex-grow-1">
-                        <div class="d-flex justify-content-between">
-                            <strong>Рустам</strong>
-                            <span class="text-muted small">Вчера 14:45</span>
+            }
 
-                        </div>
-                        <p class="mb-2">Ищу информацию о курсах русского языка для начинающих в Москве. Посоветуйте что-нибудь хорошее и недорогое.</p>
-                        <span class="me-3 text-muted small">&#10084; 10</span>
-                        <span class="text-muted small">&#128172; 9</span>
-                    </div>
+            <!-- Все посты -->
+            <h3 class="section-title">
+                <i class="bi bi-chat-square-text"></i> Последние записи
+                @if (!string.IsNullOrEmpty(Model.SearchQuery))
+                {
+                    <span class="badge bg-primary ms-2">Поиск: "@Model.SearchQuery"</span>
+                }
+            </h3>
+
+            @if (!Model.ForumPosts.Any())
+            {
+                <div class="alert alert-info">
+                    @if (!string.IsNullOrEmpty(Model.SearchQuery))
+                    {
+                        <i class="bi bi-search"></i> <span>По вашему запросу ничего не найдено</span>
+                    }
+                    else
+                    {
+                        <i class="bi bi-info-circle"></i> <span>Пока нет ни одного сообщения. Будьте первым!</span>
+                    }
                 </div>
+            }
+
+            @foreach (var post in Model.ForumPosts.OrderByDescending(p => p.CreatedAt))
+            {
+                var user = Model.Users.FirstOrDefault(u => u.Id == post.UserId);
+                var replyCount = Model.ForumReplies.Count(r => r.PostId == post.Id);
+                var userInitial = user?.Name?.FirstOrDefault().ToString().ToUpper() ?? "?";
+
+                <div class="post-card" id="post-@post.Id">
+                    <h4>@post.Title</h4>
+                    <p>@post.Content</p>
+
+                    <div class="post-meta">
+                        <span class="user-avatar">@userInitial</span>
+                        <span>@user?.Name • @post.CreatedAt?.ToString("dd MMMM yyyy в HH:mm")</span>
+                    </div>
+
+                    <div class="post-actions">
+                        <div class="action-btn">
+                            <i class="bi bi-chat-left-text"></i>
+                            <span>@replyCount @(replyCount % 10 == 1 ? "ответ" : replyCount % 10 < 5 ? "ответа" : "ответов")</span>
+                        </div>
+                        <div class="action-btn like-btn @(ViewBag.UserLikes != null && ViewBag.UserLikes.ContainsKey(post.Id) && ViewBag.UserLikes[post.Id] ? "liked" : "")"
+                             data-post-id="@post.Id">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            <span class="likes-count">@_likeStorage.GetLikesCount(post.Id)</span>
+                        </div>
+                    </div>
+
+                    <!-- Ответы на этот пост -->
+                    @foreach (var reply in Model.ForumReplies.Where(r => r.PostId == post.Id).OrderBy(r => r.CreatedAt))
+                    {
+                        var replyUser = Model.Users.FirstOrDefault(u => u.Id == reply.UserId);
+                        var replyUserInitial = replyUser?.Name?.FirstOrDefault().ToString().ToUpper() ?? "?";
+
+                        <div class="reply-item">
+                            <div class="post-meta">
+                                <span class="user-avatar">@replyUserInitial</span>
+                                <span>@replyUser?.Name • @reply.CreatedAt?.ToString("HH:mm")</span>
+                            </div>
+                            <p>@reply.Content</p>
+                        </div>
+                    }
+
+                    <!-- Форма добавления ответа -->
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-action="CreateReply" method="post" class="reply-form">
+                            <input type="hidden" name="postId" value="@post.Id" />
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="content" placeholder="Напишите ответ..." required>
+                                <button class="btn btn-outline-primary" type="submit">
+                                    <i class="bi bi-send"></i>
+                                </button>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info mt-3">
+                            <i class="bi bi-info-circle"></i> <a asp-controller="Account" asp-action="Login" class="alert-link">Войдите</a>, чтобы оставить ответ
+                        </div>
+                    }
+                </div>
+            }
+         
+        </div>
+
+        <div class="col-md-4">
+            <!-- Популярные темы -->
+            <div class="popular-topics mb-4">
+                <h3 class="section-title"><i class="bi bi-tags"></i> Популярные темы</h3>
+                @{
+                    var popularTopics = new Dictionary<string, int>
+                {
+                {"Оформление документов", 155},
+                {"Поиск работы", 120},
+                {"Аренда жилья", 98},
+                {"Курсы языка", 75},
+                {"Социальная поддержка", 60},
+                {"Медицинская помощь", 48}
+                };
+                }
+
+                @foreach (var topic in popularTopics)
+                {
+                    <span class="topic-tag">@topic.Key (@topic.Value)</span>
+                }
             </div>
-            <!-- Пагинация -->
-            <nav>
-                <ul class="pagination justify-content-center mt-3">
-                    <li class="page-item disabled"><a class="page-link" href="#">Предыдущая</a></li>
-                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Следующая</a></li>
-                </ul>
-            </nav>
+
+            <!-- Топ постов -->
+            <div class="popular-topics">
+                <h3 class="section-title"><i class="bi bi-fire"></i> Самые активные обсуждения</h3>
+                @foreach (var post in Model.ForumPosts
+                .OrderByDescending(p => _likeStorage.GetLikesCount(p.Id) + Model.ForumReplies.Count(r => r.PostId == p.Id))
+                .Take(5))
+                {
+                    var user = Model.Users.FirstOrDefault(u => u.Id == post.UserId);
+                    <div class="mb-3">
+                        <a href="#post-@post.Id" class="text-decoration-none d-block mb-1">@post.Title</a>
+                        <div class="text-muted small">
+                            <span class="me-2"><i class="bi bi-hand-thumbs-up"></i> @_likeStorage.GetLikesCount(post.Id)</span>
+                            <span><i class="bi bi-chat-left-text"></i> @Model.ForumReplies.Count(r => r.PostId == post.Id)</span>
+                        </div>
+                    </div>
+                }
+            </div>
         </div>
     </div>
 </div>
+
+<!-- Подключение иконок Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            // Обработка лайков
+            $('.like-btn').click(function() {
+                if (!@User.Identity.IsAuthenticated.ToString().ToLower()) {
+                    alert('Пожалуйста, войдите, чтобы ставить лайки');
+                    return;
+                }
+
+                var btn = $(this);
+                var postId = btn.data('post-id');
+
+                $.post('@Url.Action("LikePost", "Support")', { postId: postId }, function(data) {
+                    if (data.success) {
+                        btn.find('.likes-count').text(data.likesCount);
+                        btn.toggleClass('liked', data.isLiked);
+
+                        // Анимация лайка
+                        if (data.isLiked) {
+                            btn.find('i').css('transform', 'scale(1.2)');
+                            setTimeout(function() {
+                                btn.find('i').css('transform', 'scale(1)');
+                            }, 200);
+                        }
+                    } else {
+                        alert(data.message);
+                    }
+                }).fail(function() {
+                    alert('Ошибка при обработке запроса');
+                });
+            });
+        });
+    </script>
+}

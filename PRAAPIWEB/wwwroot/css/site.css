@@ -237,5 +237,132 @@ top: 231px;
 }
 
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.sections-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.section-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+    .section-card h2 {
+        color: #3498db;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+.resources-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    .resources-list li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+        .resources-list li:before {
+            content: "Х";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+
+    .resources-list a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+
+        .resources-list a:hover {
+            text-decoration: underline;
+        }
+
+.download-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #ddd;
+}
+
+.download-link {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+    .download-link:hover {
+        background: #2980b9;
+    }
+
+/* јнимации */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) translateX(-50%);
+    }
+
+    40% {
+        transform: translateY(-20px) translateX(-50%);
+    }
+
+    60% {
+        transform: translateY(-10px) translateX(-50%);
+    }
+}
+
+@keyframes patternMove {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1000px 1000px;
+    }
+}
+
+/* јдаптивность */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .hero-button {
+        padding: 10px 20px;
+    }
+}
 

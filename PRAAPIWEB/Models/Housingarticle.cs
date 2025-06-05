@@ -9,5 +9,6 @@
         public string Content { get; set; } = null!;
 
         public int? TypeId { get; set; }
+        public Housingarticletype? ArticleType { get; set; }
     }
 }

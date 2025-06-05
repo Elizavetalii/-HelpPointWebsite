@@ -1,5 +1,187 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using System.Web
+@model IEnumerable<PRAAPIWEB.Models.HelpLocationViewModel>
+
 @{
+    ViewData["Title"] = "Карта помощи";
 }
+
+<style>
+    /* Добавьте в ваш CSS */
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+    .location-card {
+        transition: all 0.3s ease;
+    }
+
+    #map {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+</style>
+
+<h2>Карта помощи</h2>
+
+<div id="map" style="height: 500px; width: 100%;"></div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Инициализация карты
+            const map = L.map('map').setView([55.751244, 37.618423], 10);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+            // Хранилище для маркеров
+            let currentMarker = null;
+
+            // Улучшенный обработчик кнопок "Показать на карте"
+            document.querySelectorAll('.show-on-map').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Преобразуем координаты с учетом локали
+                    const latStr = this.dataset.lat.replace(',', '.');
+                    const lngStr = this.dataset.lng.replace(',', '.');
+                    const lat = parseFloat(latStr);
+                    const lng = parseFloat(lngStr);
+                    const name = this.dataset.name;
+                    const address = this.dataset.address;
+                    const phone = this.dataset.phone || 'Телефон не указан';
+
+                    // Валидация координат
+                    if (isNaN(lat) || isNaN(lng)) {
+                        console.error('Некорректные координаты:', latStr, lngStr);
+                        alert('Невозможно отобразить локацию: некорректные координаты');
+                        return;
+                    }
+
+                    // Удаляем предыдущий маркер
+                    if (currentMarker) {
+                        map.removeLayer(currentMarker);
+                        currentMarker = null;
+                    }
+
+                    // Центрируем карту и добавляем маркер
+                    map.setView([lat, lng], 15);
+                    currentMarker = L.marker([lat, lng]).addTo(map)
+                        .bindPopup(`<b>${escapeHtml(name)}</b><br>${escapeHtml(address)}<br>${escapeHtml(phone)}`)
+                        .openPopup();
+                });
+            });
+
+            // Функция для экранирования HTML
+            function escapeHtml(unsafe) {
+                return unsafe
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+
+            // Фильтрация
+            const regionFilter = document.getElementById('regionFilter');
+            const typeFilter = document.getElementById('typeFilter');
+            const searchInput = document.getElementById('searchInput');
+            const locationCards = document.querySelectorAll('.location-card');
+
+            function filterLocations() {
+                const regionValue = regionFilter.value.toLowerCase();
+                const typeValue = typeFilter.value.toLowerCase();
+                const searchValue = searchInput.value.toLowerCase();
+
+                locationCards.forEach(card => {
+                    const cardRegion = card.dataset.region.toLowerCase();
+                    const cardType = card.dataset.type.toLowerCase();
+                    const cardText = card.textContent.toLowerCase();
+
+                    const regionMatch = !regionValue || cardRegion.includes(regionValue);
+                    const typeMatch = !typeValue || cardType === typeValue;
+                    const searchMatch = !searchValue || cardText.includes(searchValue);
+
+                    card.style.display = (regionMatch && typeMatch && searchMatch) ? 'block' : 'none';
+                });
+            }
+
+            regionFilter.addEventListener('change', filterLocations);
+            typeFilter.addEventListener('change', filterLocations);
+            searchInput.addEventListener('input', filterLocations);
+        });
+    </script>
+}
+
+<div class="row mb-4">
+    <div class="col-md-4">
+        <select class="form-select" id="regionFilter">
+            <option value="">Все регионы</option>
+            @foreach (var region in Model.Select(m => m.Region).Distinct())
+            {
+                <option value="@region">@region</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4">
+        <select class="form-select" id="typeFilter">
+            <option value="">Все типы</option>
+            <option value="clinic">Клиники</option>
+            <option value="migration">Миграционные центры</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <input type="text" class="form-control" id="searchInput" placeholder="Поиск по названию...">
+    </div>
+</div>
+
+<div class="row" id="locationsContainer">
+    @foreach (var loc in Model)
+    {
+        <div class="col-md-6 mb-4 location-card"
+             data-region="@loc.Region"
+             data-type="@loc.Type">
+            <div class="card h-100">
+                <div class="card-header bg-@(loc.Type == "clinic" ? "primary" : "success") text-white">
+                    <h5 class="card-title mb-0">@loc.Name</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <i class="bi bi-geo-alt"></i> @loc.Address<br>
+                        @if (!string.IsNullOrEmpty(loc.Phone))
+                        {
+                            <i class="bi bi-telephone"></i> @loc.Phone
+
+                            <br>
+                        }
+                        <i class="bi bi-building"></i> @loc.Region
+                    </p>
+                    @if (loc.Type == "migration" && !string.IsNullOrEmpty(loc.WorkingHours))
+                    {
+                        <p class="card-text"><i class="bi bi-clock"></i> @loc.WorkingHours</p>
+                    }
+                </div>
+                <div class="card-footer bg-transparent">
+                    <button class="btn btn-outline-primary btn-sm show-on-map"
+                            data-lat="@loc.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture)"
+                            data-lng="@loc.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture)"
+                            data-name="@loc.Name"
+                            data-address="@loc.Address"
+                            data-phone="@loc.Phone">
+                        Показать на карте
+                    </button>
+                    @if (!string.IsNullOrEmpty(loc.Phone))
+                    {
+                        <a href="tel:@loc.Phone" class="btn btn-outline-success btn-sm ms-2">
+                            <i class="bi bi-telephone"></i> Позвонить
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
